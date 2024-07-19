@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.blog-new h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+}
+.new-meta a{
+    text-decoration: none;
+}
+.new-meta a:hover{
+    text-decoration:underline;
+}
+.blog-footer{
+    padding: 2rem;
+    color:#999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top:0.05rem solid #e5e5e5 ;
+    display: block;
+}
+.blog-footer a{
+    text-decoration: none;
+}
+.blog-footer a:hover{
+    text-decoration: underline;
+}
