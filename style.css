@@ -1,8 +1,35 @@
-
 *{
-
     padding: 0;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 1.75rem;
+}
+
+.blog-post{
+    margin-bottom: 4rem;
+}
+
+.blog-post-meta{
+    margin-bottom: 1.25rem;
+    color: #999999;
+}
+
+pre code{
+text-align: left;
+display: block;
+}
+
+ol>li>a{
+text-decoration: none !important;
+
 .no_ul{text-decoration: none;}
 .no_ul:hover{text-decoration: underline;}
 .container{margin: auto;}
@@ -39,7 +66,6 @@
 @media screen and (min-width: 100px;) and (max-width: 575px){
     .container{margin: 20px;}
     .blackbox_container{margin: auto;}
-
 
 }
 @media screen and (min-width: 576px){
@@ -95,3 +121,4 @@
     font-family: 'Times New Roman', Times, serif ;
     font-weight: bold;
 }
+
